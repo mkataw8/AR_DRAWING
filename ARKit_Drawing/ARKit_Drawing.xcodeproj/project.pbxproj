@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E83C4C0127E93F0B00E3157A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C4C0027E93F0B00E3157A /* AppDelegate.swift */; };
+		E83C4C0527E93F0B00E3157A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C4C0427E93F0B00E3157A /* ViewController.swift */; };
+		E83C4C0827E93F0B00E3157A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83C4C0627E93F0B00E3157A /* Main.storyboard */; };
+		E83C4C0A27E93F0C00E3157A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83C4C0927E93F0C00E3157A /* Assets.xcassets */; };
+		E83C4C0D27E93F0C00E3157A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83C4C0B27E93F0C00E3157A /* LaunchScreen.storyboard */; };
+		E83C4C1827E93F0C00E3157A /* ARKit_DrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C4C1727E93F0C00E3157A /* ARKit_DrawingTests.swift */; };
+		E83C4C2227E93F0C00E3157A /* ARKit_DrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C4C2127E93F0C00E3157A /* ARKit_DrawingUITests.swift */; };
+		E83C4C2427E93F0C00E3157A /* ARKit_DrawingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C4C2327E93F0C00E3157A /* ARKit_DrawingUITestsLaunchTests.swift */; };
+		E83C4C3127E93F7C00E3157A /* BasicShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C4C3027E93F7C00E3157A /* BasicShape.swift */; };
+		E83C4C3427E93FF700E3157A /* OptionsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C4C3327E93FF700E3157A /* OptionsContainerViewController.swift */; };
+		E83C4C3627E9400F00E3157A /* OptionSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C4C3527E9400F00E3157A /* OptionSelectorViewController.swift */; };
+		E83C4C3827E9402A00E3157A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83C4C3727E9402A00E3157A /* UIViewController+Extensions.swift */; };
+		E83C4C3A27E9406700E3157A /* Options.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83C4C3927E9406700E3157A /* Options.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E83C4C1427E93F0C00E3157A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E83C4BF527E93F0B00E3157A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E83C4BFC27E93F0B00E3157A;
+			remoteInfo = ARKit_Drawing;
+		};
+		E83C4C1E27E93F0C00E3157A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E83C4BF527E93F0B00E3157A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E83C4BFC27E93F0B00E3157A;
+			remoteInfo = ARKit_Drawing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E83C4BFD27E93F0B00E3157A /* ARKit_Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKit_Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83C4C0027E93F0B00E3157A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E83C4C0427E93F0B00E3157A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E83C4C0727E93F0B00E3157A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E83C4C0927E93F0C00E3157A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E83C4C0C27E93F0C00E3157A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E83C4C0E27E93F0C00E3157A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E83C4C1327E93F0C00E3157A /* ARKit_DrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKit_DrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83C4C1727E93F0C00E3157A /* ARKit_DrawingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_DrawingTests.swift; sourceTree = "<group>"; };
+		E83C4C1D27E93F0C00E3157A /* ARKit_DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKit_DrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83C4C2127E93F0C00E3157A /* ARKit_DrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_DrawingUITests.swift; sourceTree = "<group>"; };
+		E83C4C2327E93F0C00E3157A /* ARKit_DrawingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_DrawingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E83C4C3027E93F7C00E3157A /* BasicShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicShape.swift; sourceTree = "<group>"; };
+		E83C4C3327E93FF700E3157A /* OptionsContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsContainerViewController.swift; sourceTree = "<group>"; };
+		E83C4C3527E9400F00E3157A /* OptionSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelectorViewController.swift; sourceTree = "<group>"; };
+		E83C4C3727E9402A00E3157A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		E83C4C3927E9406700E3157A /* Options.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Options.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E83C4BFA27E93F0B00E3157A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83C4C1027E93F0C00E3157A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83C4C1A27E93F0C00E3157A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E83C4BF427E93F0B00E3157A = {
+			isa = PBXGroup;
+			children = (
+				E83C4BFF27E93F0B00E3157A /* ARKit_Drawing */,
+				E83C4C1627E93F0C00E3157A /* ARKit_DrawingTests */,
+				E83C4C2027E93F0C00E3157A /* ARKit_DrawingUITests */,
+				E83C4BFE27E93F0B00E3157A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E83C4BFE27E93F0B00E3157A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E83C4BFD27E93F0B00E3157A /* ARKit_Drawing.app */,
+				E83C4C1327E93F0C00E3157A /* ARKit_DrawingTests.xctest */,
+				E83C4C1D27E93F0C00E3157A /* ARKit_DrawingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E83C4BFF27E93F0B00E3157A /* ARKit_Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				E83C4C0027E93F0B00E3157A /* AppDelegate.swift */,
+				E83C4C0427E93F0B00E3157A /* ViewController.swift */,
+				E83C4C0627E93F0B00E3157A /* Main.storyboard */,
+				E83C4C0927E93F0C00E3157A /* Assets.xcassets */,
+				E83C4C0B27E93F0C00E3157A /* LaunchScreen.storyboard */,
+				E83C4C0E27E93F0C00E3157A /* Info.plist */,
+				E83C4C3027E93F7C00E3157A /* BasicShape.swift */,
+				E83C4C3227E93FC400E3157A /* Options */,
+			);
+			path = ARKit_Drawing;
+			sourceTree = "<group>";
+		};
+		E83C4C1627E93F0C00E3157A /* ARKit_DrawingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E83C4C1727E93F0C00E3157A /* ARKit_DrawingTests.swift */,
+			);
+			path = ARKit_DrawingTests;
+			sourceTree = "<group>";
+		};
+		E83C4C2027E93F0C00E3157A /* ARKit_DrawingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E83C4C2127E93F0C00E3157A /* ARKit_DrawingUITests.swift */,
+				E83C4C2327E93F0C00E3157A /* ARKit_DrawingUITestsLaunchTests.swift */,
+			);
+			path = ARKit_DrawingUITests;
+			sourceTree = "<group>";
+		};
+		E83C4C3227E93FC400E3157A /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				E83C4C3327E93FF700E3157A /* OptionsContainerViewController.swift */,
+				E83C4C3527E9400F00E3157A /* OptionSelectorViewController.swift */,
+				E83C4C3727E9402A00E3157A /* UIViewController+Extensions.swift */,
+				E83C4C3927E9406700E3157A /* Options.storyboard */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E83C4BFC27E93F0B00E3157A /* ARKit_Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83C4C2727E93F0C00E3157A /* Build configuration list for PBXNativeTarget "ARKit_Drawing" */;
+			buildPhases = (
+				E83C4BF927E93F0B00E3157A /* Sources */,
+				E83C4BFA27E93F0B00E3157A /* Frameworks */,
+				E83C4BFB27E93F0B00E3157A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKit_Drawing;
+			productName = ARKit_Drawing;
+			productReference = E83C4BFD27E93F0B00E3157A /* ARKit_Drawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E83C4C1227E93F0C00E3157A /* ARKit_DrawingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83C4C2A27E93F0C00E3157A /* Build configuration list for PBXNativeTarget "ARKit_DrawingTests" */;
+			buildPhases = (
+				E83C4C0F27E93F0C00E3157A /* Sources */,
+				E83C4C1027E93F0C00E3157A /* Frameworks */,
+				E83C4C1127E93F0C00E3157A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E83C4C1527E93F0C00E3157A /* PBXTargetDependency */,
+			);
+			name = ARKit_DrawingTests;
+			productName = ARKit_DrawingTests;
+			productReference = E83C4C1327E93F0C00E3157A /* ARKit_DrawingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E83C4C1C27E93F0C00E3157A /* ARKit_DrawingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83C4C2D27E93F0C00E3157A /* Build configuration list for PBXNativeTarget "ARKit_DrawingUITests" */;
+			buildPhases = (
+				E83C4C1927E93F0C00E3157A /* Sources */,
+				E83C4C1A27E93F0C00E3157A /* Frameworks */,
+				E83C4C1B27E93F0C00E3157A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E83C4C1F27E93F0C00E3157A /* PBXTargetDependency */,
+			);
+			name = ARKit_DrawingUITests;
+			productName = ARKit_DrawingUITests;
+			productReference = E83C4C1D27E93F0C00E3157A /* ARKit_DrawingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E83C4BF527E93F0B00E3157A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E83C4BFC27E93F0B00E3157A = {
+						CreatedOnToolsVersion = 13.3;
+						ProvisioningStyle = Automatic;
+					};
+					E83C4C1227E93F0C00E3157A = {
+						CreatedOnToolsVersion = 13.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E83C4BFC27E93F0B00E3157A;
+					};
+					E83C4C1C27E93F0C00E3157A = {
+						CreatedOnToolsVersion = 13.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E83C4BFC27E93F0B00E3157A;
+					};
+				};
+			};
+			buildConfigurationList = E83C4BF827E93F0B00E3157A /* Build configuration list for PBXProject "ARKit_Drawing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E83C4BF427E93F0B00E3157A;
+			productRefGroup = E83C4BFE27E93F0B00E3157A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E83C4BFC27E93F0B00E3157A /* ARKit_Drawing */,
+				E83C4C1227E93F0C00E3157A /* ARKit_DrawingTests */,
+				E83C4C1C27E93F0C00E3157A /* ARKit_DrawingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E83C4BFB27E93F0B00E3157A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83C4C0D27E93F0C00E3157A /* LaunchScreen.storyboard in Resources */,
+				E83C4C3A27E9406700E3157A /* Options.storyboard in Resources */,
+				E83C4C0A27E93F0C00E3157A /* Assets.xcassets in Resources */,
+				E83C4C0827E93F0B00E3157A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83C4C1127E93F0C00E3157A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83C4C1B27E93F0C00E3157A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E83C4BF927E93F0B00E3157A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83C4C3627E9400F00E3157A /* OptionSelectorViewController.swift in Sources */,
+				E83C4C0527E93F0B00E3157A /* ViewController.swift in Sources */,
+				E83C4C3427E93FF700E3157A /* OptionsContainerViewController.swift in Sources */,
+				E83C4C3827E9402A00E3157A /* UIViewController+Extensions.swift in Sources */,
+				E83C4C0127E93F0B00E3157A /* AppDelegate.swift in Sources */,
+				E83C4C3127E93F7C00E3157A /* BasicShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83C4C0F27E93F0C00E3157A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83C4C1827E93F0C00E3157A /* ARKit_DrawingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83C4C1927E93F0C00E3157A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83C4C2227E93F0C00E3157A /* ARKit_DrawingUITests.swift in Sources */,
+				E83C4C2427E93F0C00E3157A /* ARKit_DrawingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E83C4C1527E93F0C00E3157A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E83C4BFC27E93F0B00E3157A /* ARKit_Drawing */;
+			targetProxy = E83C4C1427E93F0C00E3157A /* PBXContainerItemProxy */;
+		};
+		E83C4C1F27E93F0C00E3157A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E83C4BFC27E93F0B00E3157A /* ARKit_Drawing */;
+			targetProxy = E83C4C1E27E93F0C00E3157A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E83C4C0627E93F0B00E3157A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E83C4C0727E93F0B00E3157A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E83C4C0B27E93F0C00E3157A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E83C4C0C27E93F0C00E3157A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E83C4C2527E93F0C00E3157A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E83C4C2627E93F0C00E3157A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E83C4C2827E93F0C00E3157A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98GNHBPH48;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARKit_Drawing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Main.ARKit-Drawing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E83C4C2927E93F0C00E3157A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98GNHBPH48;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARKit_Drawing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Main.ARKit-Drawing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E83C4C2B27E93F0C00E3157A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Main.ARKit-DrawingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit_Drawing.app/ARKit_Drawing";
+			};
+			name = Debug;
+		};
+		E83C4C2C27E93F0C00E3157A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Main.ARKit-DrawingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit_Drawing.app/ARKit_Drawing";
+			};
+			name = Release;
+		};
+		E83C4C2E27E93F0C00E3157A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Main.ARKit-DrawingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKit_Drawing;
+			};
+			name = Debug;
+		};
+		E83C4C2F27E93F0C00E3157A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Main.ARKit-DrawingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKit_Drawing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E83C4BF827E93F0B00E3157A /* Build configuration list for PBXProject "ARKit_Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83C4C2527E93F0C00E3157A /* Debug */,
+				E83C4C2627E93F0C00E3157A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83C4C2727E93F0C00E3157A /* Build configuration list for PBXNativeTarget "ARKit_Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83C4C2827E93F0C00E3157A /* Debug */,
+				E83C4C2927E93F0C00E3157A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83C4C2A27E93F0C00E3157A /* Build configuration list for PBXNativeTarget "ARKit_DrawingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83C4C2B27E93F0C00E3157A /* Debug */,
+				E83C4C2C27E93F0C00E3157A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83C4C2D27E93F0C00E3157A /* Build configuration list for PBXNativeTarget "ARKit_DrawingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83C4C2E27E93F0C00E3157A /* Debug */,
+				E83C4C2F27E93F0C00E3157A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E83C4BF527E93F0B00E3157A /* Project object */;
+}
